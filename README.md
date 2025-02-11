@@ -20,6 +20,9 @@ Raw sequencing data is available through NCBI SRA BioProject [PRJNA1086849](http
 |HCC1954BL|Blood|ONT R10|104|28|[SRR28305161](https://www.ncbi.nlm.nih.gov/sra/?term=SRR28305161)|
 |HCC1954BL||HiFi|193|17|[SRR28305160](https://www.ncbi.nlm.nih.gov/sra/?term=SRR28305160)|
 |HCC1954BL||Illumina|436|-|[SRR28305159](https://www.ncbi.nlm.nih.gov/sra/?term=SRR28305159)|
+
+|Sample|Tissue/Cancer|Technology|Read length (Gb)|Reads N50 (kb)|SRA accession|
+|------|-------------|----------|----------------|--------------|-------------|
 |HCC1937|Breast Invasive Ductal Carcinoma|ONT R10|355|37|[SRR28305186](https://www.ncbi.nlm.nih.gov/sra/?term=SRR28305186)|
 |HCC1937||ONT UL E821|572|48|[SRR31537484](https://www.ncbi.nlm.nih.gov/sra/?term=SRR28305184)|
 |HCC1937||HiFi|184|15|[SRR28305185](https://www.ncbi.nlm.nih.gov/sra/?term=SRR28305185)|
@@ -28,6 +31,9 @@ Raw sequencing data is available through NCBI SRA BioProject [PRJNA1086849](http
 |HCC1937BL||ONT UL E821|172|45|[SRR31537483](https://www.ncbi.nlm.nih.gov/sra/?term=SRR31537483)|
 |HCC1937BL||HiFi|172|16|[SRR28305182](https://www.ncbi.nlm.nih.gov/sra/?term=SRR28305182)|
 |HCC1937BL||Illumina|218|-|[SRR28305181](https://www.ncbi.nlm.nih.gov/sra/?term=SRR28305181)|
+
+|Sample|Tissue/Cancer|Technology|Read length (Gb)|Reads N50 (kb)|SRA accession|
+|------|-------------|----------|----------------|--------------|-------------|
 |H1437|Lung (NSCLC)|ONT R10|242|38|[SRR28305180](https://www.ncbi.nlm.nih.gov/sra/?term=SRR28305180)|
 |H1437||ONT UL E821|550|48|[SRR31537476](https://www.ncbi.nlm.nih.gov/sra/?term=SRR31537476)|
 |H1437||HiFi|198|17|[SRR28305179](https://www.ncbi.nlm.nih.gov/sra/?term=SRR28305179)|
@@ -36,6 +42,9 @@ Raw sequencing data is available through NCBI SRA BioProject [PRJNA1086849](http
 |BL1437||ONT UL E821|203|39|[SRR31537475](https://www.ncbi.nlm.nih.gov/sra/?term=SRR31537475)|
 |BL1437||HiFi|218|18|[SRR28305175](https://www.ncbi.nlm.nih.gov/sra/?term=SRR28305175)|
 |BL1437||Illumina|203|-|[SRR28305174](https://www.ncbi.nlm.nih.gov/sra/?term=SRR28305174)|
+
+|Sample|Tissue/Cancer|Technology|Read length (Gb)|Reads N50 (kb)|SRA accession|
+|------|-------------|----------|----------------|--------------|-------------|
 |H2009|Lung (NSCLC)|ONT R10|329|27|[SRR28305173](https://www.ncbi.nlm.nih.gov/sra/?term=SRR28305173)|
 |H2009||ONT UL E821|516|65|[SRR31537473](https://www.ncbi.nlm.nih.gov/sra/?term=SRR31537473)|
 |H2009||HiFi|201|16|[SRR28305172](https://www.ncbi.nlm.nih.gov/sra/?term=SRR28305172)|
@@ -43,12 +52,18 @@ Raw sequencing data is available through NCBI SRA BioProject [PRJNA1086849](http
 |BL2009|Blood|ONT R10|92|37|[SRR28305170](https://www.ncbi.nlm.nih.gov/sra/?term=SRR28305170)|
 |BL2009||HiFi|209|16|[SRR28305169](https://www.ncbi.nlm.nih.gov/sra/?term=SRR28305169)|
 |BL2009||Illumina|171|-|[SRR28305168](https://www.ncbi.nlm.nih.gov/sra/?term=SRR28305168)|
+
+|Sample|Tissue/Cancer|Technology|Read length (Gb)|Reads N50 (kb)|SRA accession|
+|------|-------------|----------|----------------|--------------|-------------|
 |Hs578T|Lung (NSCLC)|ONT R10|261|36|[SRR31537470](https://www.ncbi.nlm.nih.gov/sra/?term=SRR31537470)|
 |Hs578T||HiFi|172|18|[SRR31537482](https://www.ncbi.nlm.nih.gov/sra/?term=SRR31537482)|
 |Hs578T||Illumina|616|-|[SRR31537481](https://www.ncbi.nlm.nih.gov/sra/?term=SRR31537481)|
 |Hs578Bst|Blood|ONT R10|113|40|[SRR31537480](https://www.ncbi.nlm.nih.gov/sra/?term=SRR31537480)|
 |Hs578Bst||HiFi|84|12|[SRR31537479](https://www.ncbi.nlm.nih.gov/sra/?term=SRR31537479)|
 |Hs578Bst||Illumina|102|-|[SRR31537478](https://www.ncbi.nlm.nih.gov/sra/?term=SRR31537478)|
+
+|Sample|Tissue/Cancer|Technology|Read length (Gb)|Reads N50 (kb)|SRA accession|
+|------|-------------|----------|----------------|--------------|-------------|
 |HCC1395|Breast Invasive Ductal Carcinoma|ONT R10|246|10|[SRR28305167](https://www.ncbi.nlm.nih.gov/sra/?term=SRR28305167)|
 |HCC1395BL|Blood|ONT R10|90|11|[SRR28305166](https://www.ncbi.nlm.nih.gov/sra/?term=SRR28305166)|
 
