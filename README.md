@@ -15,9 +15,10 @@ Methylation calls for Nanopore and PacBio are also available via Google mirror (
 
 For details on how the sequencing was performed, plase see [DeepSomatic preprint](https://www.biorxiv.org/content/10.1101/2024.08.16.608331v1.full).  
 
-### CASTLE panel data inital release
+Recently, additional ultra-long ONT and PoreC data was generated to facilitate chromosome-scale phasing
+and de novo assmebly.
 
-
+### CASTLE panel core data
 
 #### HCC1954/HCC1954BL Breast Ductal Carcinoma with matched normal blood sample
 
@@ -35,33 +36,42 @@ For details on how the sequencing was performed, plase see [DeepSomatic preprint
 |Sample|T/N|Technology|Size (Gb)|Reads N50 (kb)|SRA accession|
 |------|-------------|----------|----------------|--------------|-------------|
 |HCC1937|T|ONT R10|355|37|[SRR28305186](https://www.ncbi.nlm.nih.gov/sra/?term=SRR28305186)|
+|HCC1937|T|ONT UL E821|572|48|[SRR31537484](https://www.ncbi.nlm.nih.gov/sra/?term=SRR28305184)|
 |HCC1937|T|HiFi|184|15|[SRR28305185](https://www.ncbi.nlm.nih.gov/sra/?term=SRR28305185)|
 |HCC1937|T|Illumina|740|-|[SRR28305184](https://www.ncbi.nlm.nih.gov/sra/?term=SRR28305184)|
 |HCC1937BL|N|ONT R10|79|41|[SRR28305183](https://www.ncbi.nlm.nih.gov/sra/?term=SRR28305183)|
+|HCC1937BL|N|ONT UL E821|172|45|[SRR31537483](https://www.ncbi.nlm.nih.gov/sra/?term=SRR31537483)|
 |HCC1937BL|N|HiFi|172|16|[SRR28305182](https://www.ncbi.nlm.nih.gov/sra/?term=SRR28305182)|
 |HCC1937BL|N|Illumina|218|-|[SRR28305181](https://www.ncbi.nlm.nih.gov/sra/?term=SRR28305181)|
+|HCC1937BL|N|	Pore-C	|77	| - | SRR31537477|
 
 #### H1437/BL1437 Lung adenocarcinoma (NSCLC) with matched normal blood sample
 
 |Sample|T/N|Technology|Size (Gb)|Reads N50 (kb)|SRA accession|
 |------|-------------|----------|----------------|--------------|-------------|
 |H1437|T|ONT R10|242|38|[SRR28305180](https://www.ncbi.nlm.nih.gov/sra/?term=SRR28305180)|
+|H1437|T|ONT UL E821|550|48|[SRR31537476](https://www.ncbi.nlm.nih.gov/sra/?term=SRR31537476)|
 |H1437|T|HiFi|198|17|[SRR28305179](https://www.ncbi.nlm.nih.gov/sra/?term=SRR28305179)|
 |H1437|T|Illumina|595|-|[SRR28305178](https://www.ncbi.nlm.nih.gov/sra/?term=SRR28305178)|
 |BL1437|N|ONT R10|151|42|[SRR28305177](https://www.ncbi.nlm.nih.gov/sra/?term=SRR28305177)|
+|BL1437|N|ONT UL E821|203|39|[SRR31537475](https://www.ncbi.nlm.nih.gov/sra/?term=SRR31537475)|
 |BL1437|N|HiFi|218|18|[SRR28305175](https://www.ncbi.nlm.nih.gov/sra/?term=SRR28305175)|
 |BL1437|N|Illumina|203|-|[SRR28305174](https://www.ncbi.nlm.nih.gov/sra/?term=SRR28305174)|
+| BL1437|N|	Pore-C	|79	| - | SRR31537474|
 
 #### H2009/BL2009 Lung adenocarcinoma with matched normal blood sample
 
 |Sample|T/N|Technology|Size (Gb)|Reads N50 (kb)|SRA accession|
 |------|-------------|----------|----------------|--------------|-------------|
 |H2009|T|ONT R10|329|27|[SRR28305173](https://www.ncbi.nlm.nih.gov/sra/?term=SRR28305173)|
+|H2009|T|ONT UL E821|516|65|[SRR31537473](https://www.ncbi.nlm.nih.gov/sra/?term=SRR31537473)|
 |H2009|T|HiFi|201|16|[SRR28305172](https://www.ncbi.nlm.nih.gov/sra/?term=SRR28305172)|
 |H2009|T|Illumina|669|-|[SRR28305171](https://www.ncbi.nlm.nih.gov/sra/?term=SRR28305171)|
 |BL2009|N|ONT R10|92|37|[SRR28305170](https://www.ncbi.nlm.nih.gov/sra/?term=SRR28305170)|
+|BL2009|N|ONT UL E821	| 166	|64	| [SRR31537472](https://www.ncbi.nlm.nih.gov/sra/?term=SRR31537472)|
 |BL2009|N|HiFi|209|16|[SRR28305169](https://www.ncbi.nlm.nih.gov/sra/?term=SRR28305169)|
 |BL2009|N|Illumina|171|-|[SRR28305168](https://www.ncbi.nlm.nih.gov/sra/?term=SRR28305168)|
+|BL2009|N|	Pore-C	|79	| - |SRR31537471|
 
 #### Hs578T/Hs578Bst Breast carcinoma with matched normal breast tissue
 
@@ -81,25 +91,6 @@ For details on how the sequencing was performed, plase see [DeepSomatic preprint
 |HCC1395|T|ONT R10|246|10|[SRR28305167](https://www.ncbi.nlm.nih.gov/sra/?term=SRR28305167)|
 |HCC1395BL|N|ONT R10|90|11|[SRR28305166](https://www.ncbi.nlm.nih.gov/sra/?term=SRR28305166)|
 
-### Additional ultra-long Nanopore and Pore-C data
-
-Additional ultra-long ONT and PoreC data was generated to facilitate chromosome-scale phasing
-and de novo assmebly.
-
-|Sample|T/N|Technology|Size (Gb)|Reads N50 (kb)|SRA accession|
-|------|-------------|----------|----------------|--------------|-------------|
-|HCC1937|T|ONT UL E821|572|48|[SRR31537484](https://www.ncbi.nlm.nih.gov/sra/?term=SRR28305184)|
-|HCC1937BL|N|ONT UL E821|172|45|[SRR31537483](https://www.ncbi.nlm.nih.gov/sra/?term=SRR31537483)|
-|H1437|T|ONT UL E821|550|48|[SRR31537476](https://www.ncbi.nlm.nih.gov/sra/?term=SRR31537476)|
-|BL1437|N|ONT UL E821|203|39|[SRR31537475](https://www.ncbi.nlm.nih.gov/sra/?term=SRR31537475)|
-|H2009|T|ONT UL E821|516|65|[SRR31537473](https://www.ncbi.nlm.nih.gov/sra/?term=SRR31537473)|
-|BL2009|N|ONT UL E821	| 166	|64	| [SRR31537472](https://www.ncbi.nlm.nih.gov/sra/?term=SRR31537472)|
-
-|Sample|T/N|Technology|Size (Gb)|SRA accession|
-|------|-------------|----------|--------------|-------------|
-HCC1937BL|N|	Pore-C	|77	|SRR31537477|
-BL1437|N|	Pore-C	|79	| SRR31537474|
-BL2009|N|	Pore-C	|79	| SRR31537471|
 
 ### Additional COLO829 data:
 
