@@ -102,7 +102,7 @@ The sequencing data was generated and analyzed in a joint initiaive by the follo
 * Children's Mercy Hospital (Farooqi lab)
 * Google Health (DeepVariant group)
 * Oxford Nanopore Technologies (Applications team)
-* New York Genome Center (Robine lab)
+* New York Genome Center (Robine and Narzisi labs)
 
 ## How to cite
 
