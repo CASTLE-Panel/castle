@@ -15,8 +15,8 @@ Methylation calls for Nanopore and PacBio are also available via Google mirror (
 
 For details on how the sequencing was performed, plase see [DeepSomatic preprint](https://www.biorxiv.org/content/10.1101/2024.08.16.608331v1.full).  
 
-Recently, additional ultra-long ONT and PoreC data was generated to facilitate chromosome-scale phasing
-and de novo assmebly.
+Recently, we generated additional ultra-long ONT and PoreC data for a subset of cell lines to improve 
+chromosome-scale phasing and de novo assmebly.
 
 ### CASTLE panel core data
 
@@ -91,6 +91,8 @@ and de novo assmebly.
 |HCC1395|T|ONT R10|246|10|[SRR28305167](https://www.ncbi.nlm.nih.gov/sra/?term=SRR28305167)|
 |HCC1395BL|N|ONT R10|90|11|[SRR28305166](https://www.ncbi.nlm.nih.gov/sra/?term=SRR28305166)|
 
+Matching [PacBio](https://www.pacb.com/connect/datasets/) and [Illumina](https://www.ncbi.nlm.nih.gov/bioproject/PRJNA489865) 
+for these cell lines is available from other sequencing projects.
 
 ### Additional COLO829 data:
 
@@ -103,6 +105,9 @@ ONT R9 and Illumina data from the same culture to support the evaluation.
 |COLO829|T|Illumina|162|-|[SRR28305187](https://www.ncbi.nlm.nih.gov/sra/?term=SRR28305187)|
 |COLO829BL|N|ONT R9|419|38|[SRR28305176](https://www.ncbi.nlm.nih.gov/sra/?term=SRR28305176)|
 |COLO829BL|N|Illumina|395|-|[SRR28305165](https://www.ncbi.nlm.nih.gov/sra/?term=SRR28305165)|
+
+Matching [PacBio](https://www.pacb.com/connect/datasets/) and [ONT R10](https://labs.epi2me.io/colo-2024.03/)
+data for these cell lines is available from other sequencing projects.
 
 ## Ethics statement
 
