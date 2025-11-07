@@ -157,7 +157,9 @@ This dataset is used to develop and evaluate the somatic structural variation (S
 
 ### Single Nucleotide Variation Calls
 
-To be added soon!
+Evaluation of our somatic variant calls was done using an orthogonal technology and orthogonal tools benchmark, to avoid circularity with training sets. The orthogonal technology benchmark set was constructed by holding out the variant calls of the sequencing technology that is being evaluated. The orthogonal tools benchmark was generated using a combination of the Strelka2 (for short reads) and ClairS (for long reads) and filtered under the same criteria used for generating training sets. The figure here shows an evaluation of somatic variant callers using the orthogonal technology benchmark. For more details, please see the [DeepSomatic manuscript](https://www.nature.com/articles/s41587-025-02839-x). 
+
+Variant calls and benchmarks, as well as commands and scripts used are [available here](https://zenodo.org/records/16650334).
 
 ## Contact
 Please raise issues concerning this dataset in the Github repository.
