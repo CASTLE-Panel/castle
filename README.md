@@ -133,7 +133,7 @@ The sequencing data was generated and analyzed in a joint initiaive by the follo
 
 ## How to cite
 
-* The most relevant citation for data generation and small variation analysis is the [DeepSomatic]( https://www.biorxiv.org/content/10.1101/2024.08.16.608331v1.full) preprint.
+* The most relevant citation for data generation and small variation analysis is the [DeepSomatic](https://www.nature.com/articles/s41587-025-02839-x) manuscript.
 
 * To refer to structural variation analysis, please cite [Severus]( https://www.medrxiv.org/content/10.1101/2024.03.22.24304756v1) preprint.
 
