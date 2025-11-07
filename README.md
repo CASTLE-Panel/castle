@@ -13,7 +13,7 @@ Raw sequencing data is available through NCBI SRA BioProject [PRJNA1086849](http
 [Google cloud mirror](https://console.cloud.google.com/storage/browser/brain-genomics-public/publications/park2024_deepsomatic). 
 Methylation calls for Nanopore and PacBio are also available via Google mirror (or alternatively through SRA in the Cloud service).
 
-For details on how the sequencing was performed, plase see [DeepSomatic preprint](https://www.biorxiv.org/content/10.1101/2024.08.16.608331v1.full).  
+For details on how the sequencing was performed, please see DeepSomatic [manuscript](https://www.nature.com/articles/s41587-025-02839-x) or [preprint](https://www.biorxiv.org/content/10.1101/2024.08.16.608331v1.full).
 
 Recently, we generated additional ultra-long ONT and PoreC data for a subset of cell lines to improve 
 chromosome-scale phasing and de novo assmebly.
@@ -135,7 +135,7 @@ The sequencing data was generated and analyzed in a joint initiaive by the follo
 
 * The most relevant citation for data generation and small variation analysis is the [DeepSomatic](https://www.nature.com/articles/s41587-025-02839-x) manuscript.
 
-* To refer to structural variation analysis, please cite [Severus]( https://www.medrxiv.org/content/10.1101/2024.03.22.24304756v1) preprint.
+* To refer to structural variation analysis, please cite [Severus](https://www.nature.com/articles/s41587-025-02618-8) manuscript.
 
 ## Somatic Variation Analysis
 ### Structural Variation Calls and benchmarking
@@ -144,7 +144,7 @@ Since no ground truth SV calls are available, we created an ensemble of confiden
 [GRIDSS]( https://github.com/PapenfussLab/gridss), and [Manta]( https://github.com/Illumina/manta) to generate ensembles. 
 Confident calls were defined if supported by at least two (out of three) technologies and at least 4 (out of 11) callers. 
 This assumes that singleton calls are false-positives and that calls supported by multiple tools are more reliable.
-For more details on the method and statistics, please see [Severus preprint]( https://www.medrxiv.org/content/10.1101/2024.03.22.24304756v1). 
+For more details on the method and statistics, please see Severus [manuscript](https://www.nature.com/articles/s41587-025-02618-8) or [preprint]( https://www.medrxiv.org/content/10.1101/2024.03.22.24304756v1). 
 
 <p align="center">
   <img src="docs/sv_bench.png" alt="benchmarking" style="width:70%"/>
@@ -157,7 +157,7 @@ This dataset is used to develop and evaluate the somatic structural variation (S
 
 ### Single Nucleotide Variation Calls
 
-Evaluation of our somatic variant calls was done using an orthogonal technology and orthogonal tools benchmark, to avoid circularity with training sets. The orthogonal technology benchmark set was constructed by holding out the variant calls of the sequencing technology that is being evaluated. The orthogonal tools benchmark was generated using a combination of the Strelka2 (for short reads) and ClairS (for long reads) and filtered under the same criteria used for generating training sets. The figure here shows an evaluation of somatic variant callers using the orthogonal technology benchmark. For more details, please see the [DeepSomatic manuscript](https://www.nature.com/articles/s41587-025-02839-x). 
+Evaluation of our somatic variant calls was done using an orthogonal technology and orthogonal tools benchmark, to avoid circularity with training sets. The orthogonal technology benchmark set was constructed by holding out the variant calls of the sequencing technology that is being evaluated. The orthogonal tools benchmark was generated using a combination of the Strelka2 (for short reads) and ClairS (for long reads) and filtered under the same criteria used for generating training sets. The figure here shows an evaluation of somatic variant callers using the orthogonal technology benchmark. For more details, please see DeepSomatic [manuscript](https://www.nature.com/articles/s41587-025-02839-x). 
 
 <p align="center">
   <img src="docs/snv_bench.png" alt="snv_benchmarking" style="width:70%"/>
