@@ -16,7 +16,10 @@ Methylation calls for Nanopore and PacBio are also available via Google mirror (
 For details on how the sequencing was performed, please see DeepSomatic [manuscript](https://www.nature.com/articles/s41587-025-02839-x) or [preprint](https://www.biorxiv.org/content/10.1101/2024.08.16.608331v1.full).
 
 Recently, we generated additional ultra-long ONT and PoreC data for a subset of cell lines to improve 
-chromosome-scale phasing and de novo assmebly.
+chromosome-scale phasing and de novo assmebly. 
+
+Dataset now also include Hi-C data with the Omni-C protocol for tumor cell lines,
+which is currently available from Google bucket and will be uploaded to SRA shortly.
 
 ### CASTLE panel core data
 
@@ -27,6 +30,7 @@ chromosome-scale phasing and de novo assmebly.
 |HCC1954|T|ONT R10|253|28|[SRR28305164](https://www.ncbi.nlm.nih.gov/sra/?term=SRR28305164)|
 |HCC1954|T|HiFi|195|17|[SRR28305163](https://www.ncbi.nlm.nih.gov/sra/?term=SRR28305163)|
 |HCC1954|T|Illumina|232|-|[SRR28305162](https://www.ncbi.nlm.nih.gov/sra/?term=SRR28305162)|
+|HCC1954|T|Hi-C|95|-|[Google Bucket](https://console.cloud.google.com/storage/browser/brain-genomics-public/publications/park2024_deepsomatic/bams/HiC/)|
 |HCC1954BL|N|ONT R10|104|28|[SRR28305161](https://www.ncbi.nlm.nih.gov/sra/?term=SRR28305161)|
 |HCC1954BL|N|HiFi|193|17|[SRR28305160](https://www.ncbi.nlm.nih.gov/sra/?term=SRR28305160)|
 |HCC1954BL|N|Illumina|436|-|[SRR28305159](https://www.ncbi.nlm.nih.gov/sra/?term=SRR28305159)|
@@ -39,6 +43,7 @@ chromosome-scale phasing and de novo assmebly.
 |HCC1937|T|ONT UL E821|572|48|[SRR31537484](https://www.ncbi.nlm.nih.gov/sra/?term=SRR28305184)|
 |HCC1937|T|HiFi|184|15|[SRR28305185](https://www.ncbi.nlm.nih.gov/sra/?term=SRR28305185)|
 |HCC1937|T|Illumina|740|-|[SRR28305184](https://www.ncbi.nlm.nih.gov/sra/?term=SRR28305184)|
+|HCC1937|T|Hi-C|132|-|[Google Bucket](https://console.cloud.google.com/storage/browser/brain-genomics-public/publications/park2024_deepsomatic/bams/HiC/)|
 |HCC1937BL|N|ONT R10|79|41|[SRR28305183](https://www.ncbi.nlm.nih.gov/sra/?term=SRR28305183)|
 |HCC1937BL|N|ONT UL E821|172|45|[SRR31537483](https://www.ncbi.nlm.nih.gov/sra/?term=SRR31537483)|
 |HCC1937BL|N|HiFi|172|16|[SRR28305182](https://www.ncbi.nlm.nih.gov/sra/?term=SRR28305182)|
@@ -53,6 +58,7 @@ chromosome-scale phasing and de novo assmebly.
 |H1437|T|ONT UL E821|550|48|[SRR31537476](https://www.ncbi.nlm.nih.gov/sra/?term=SRR31537476)|
 |H1437|T|HiFi|198|17|[SRR28305179](https://www.ncbi.nlm.nih.gov/sra/?term=SRR28305179)|
 |H1437|T|Illumina|595|-|[SRR28305178](https://www.ncbi.nlm.nih.gov/sra/?term=SRR28305178)|
+|H1437|T|Hi-C|85|-|[Google Bucket](https://console.cloud.google.com/storage/browser/brain-genomics-public/publications/park2024_deepsomatic/bams/HiC/)|
 |BL1437|N|ONT R10|151|42|[SRR28305177](https://www.ncbi.nlm.nih.gov/sra/?term=SRR28305177)|
 |BL1437|N|ONT UL E821|203|39|[SRR31537475](https://www.ncbi.nlm.nih.gov/sra/?term=SRR31537475)|
 |BL1437|N|HiFi|218|18|[SRR28305175](https://www.ncbi.nlm.nih.gov/sra/?term=SRR28305175)|
@@ -67,6 +73,7 @@ chromosome-scale phasing and de novo assmebly.
 |H2009|T|ONT UL E821|516|65|[SRR31537473](https://www.ncbi.nlm.nih.gov/sra/?term=SRR31537473)|
 |H2009|T|HiFi|201|16|[SRR28305172](https://www.ncbi.nlm.nih.gov/sra/?term=SRR28305172)|
 |H2009|T|Illumina|669|-|[SRR28305171](https://www.ncbi.nlm.nih.gov/sra/?term=SRR28305171)|
+|H2009|T|Hi-C|199|-|[Google Bucket](https://console.cloud.google.com/storage/browser/brain-genomics-public/publications/park2024_deepsomatic/bams/HiC/)|
 |BL2009|N|ONT R10|92|37|[SRR28305170](https://www.ncbi.nlm.nih.gov/sra/?term=SRR28305170)|
 |BL2009|N|ONT UL E821	| 166	|64	| [SRR31537472](https://www.ncbi.nlm.nih.gov/sra/?term=SRR31537472)|
 |BL2009|N|HiFi|209|16|[SRR28305169](https://www.ncbi.nlm.nih.gov/sra/?term=SRR28305169)|
@@ -80,6 +87,7 @@ chromosome-scale phasing and de novo assmebly.
 |Hs578T|T|ONT R10|261|36|[SRR31537470](https://www.ncbi.nlm.nih.gov/sra/?term=SRR31537470)|
 |Hs578T|T|HiFi|172|18|[SRR31537482](https://www.ncbi.nlm.nih.gov/sra/?term=SRR31537482)|
 |Hs578T|T|Illumina|616|-|[SRR31537481](https://www.ncbi.nlm.nih.gov/sra/?term=SRR31537481)|
+|Hs578T|T|Hi-C|115|-|[Google Bucket](https://console.cloud.google.com/storage/browser/brain-genomics-public/publications/park2024_deepsomatic/bams/HiC/)|
 |Hs578Bst|N|ONT R10|113|40|[SRR31537480](https://www.ncbi.nlm.nih.gov/sra/?term=SRR31537480)|
 |Hs578Bst|N|HiFi|84|12|[SRR31537479](https://www.ncbi.nlm.nih.gov/sra/?term=SRR31537479)|
 |Hs578Bst|N|Illumina|102|-|[SRR31537478](https://www.ncbi.nlm.nih.gov/sra/?term=SRR31537478)|
