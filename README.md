@@ -117,6 +117,12 @@ ONT R9 and Illumina data from the same culture to support the evaluation.
 Matching [PacBio](https://www.pacb.com/connect/datasets/) and [ONT R10](https://labs.epi2me.io/colo-2024.03/)
 data for these cell lines is available from other sequencing projects.
 
+## Draft assmeblies of the matching normal cell lines
+
+Draft versions of the normal cell lines assmeblies could be downloaded from [Zenodo](https://zenodo.org/records/21611881/files/castle_normal_assemblies.tar.gz).
+These assemblies are were generated as a part of the [Wakhan study](https://www.medrxiv.org/content/10.64898/2025.12.11.25342098v1). We are
+currently working on generating T2T versions of these genomes, which will be shared later.
+
 ## Ethics statement
 
 For the cell line sequencing, the Institutional Review Board of National Institutes of Health considers patient-derived cell lines as non-human subjects, 
