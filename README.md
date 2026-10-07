@@ -15,11 +15,37 @@ Methylation calls for Nanopore and PacBio are also available via Google mirror (
 
 For details on how the sequencing was performed, please see DeepSomatic [manuscript](https://www.nature.com/articles/s41587-025-02839-x) or [preprint](https://www.biorxiv.org/content/10.1101/2024.08.16.608331v1.full).
 
-Recently, we generated additional ultra-long ONT and PoreC data for a subset of cell lines to improve 
-chromosome-scale phasing and de novo assmebly. 
+## Dataset history
 
-Dataset now also include Hi-C data with the Omni-C protocol for tumor cell lines,
-which is currently available from Google bucket and will be uploaded to SRA shortly.
+### Release 1 (2024-03-22)
+
+**Data**: Standard ONT, PacBio HiFi and Illumina data for all CASTLE cell lines. Also includes additional COLO829 data (with ONT R9 and Illumina) that used in the manuscripts, 
+but not a part of the CASTLE cell lines. Original data release, described
+in [DeepSomatic](https://www.nature.com/articles/s41587-025-02839-x) and [Severus](https://www.nature.com/articles/s41587-025-02618-8) manuscripts.
+
+**Credit**: National Cancer Institute (Kolmogorov lab), UC Santa Cruz (Paten and Miga labs), Children's Mercy Hospital (Farooqi lab), 
+Oxford Nanopore Technologies (Applications team), New York Genome Center (Robine and Narzisi labs)
+
+### Release 2 (2024-11-27)
+
+**Data**: "Semi-UL" ONT R10 data with improved N50 (~50kb) and better base-level quality (E821 pore) for 3 cell line pairs (HCC1937/HCC1937BL, H2009/BL2009, H1437/BL1437). 
+Also PoreC for 3 normal cell lines (HCC1937BL, BL2009, BL1437).
+
+**Credit**: UC Santa Cruz (Paten and Miga labs), Oxford Nanopore Technologies (Applications team)
+
+### Release 3 (2025-11-17)
+
+**Data**: Hi-C sequencing data (using the Omni-C protocol) for 5 tumor cell lines. Currently only available via Google bucket, will
+be uploaded to SRA shortly.
+
+**Credit**: UC Santa Cruz (Paten and Miga labs), National Cancer Institute (Kolmogorov lab)
+
+### Release 4 (2026-09-08)
+
+**Data**: Long-read RNA sequenced with PacBio IsoSeq Kinnex of all tumor cell lines + 1 normal cell line from matching tissue (Hs578Bst).
+The data is currently available via SRA only, and will be uploaded to Goole mirror shortly.
+
+**Credit**: UC Santa Cruz (Brooks lab).
 
 ### CASTLE panel core data
 
@@ -40,12 +66,12 @@ which is currently available from Google bucket and will be uploaded to SRA shor
 |Sample|T/N|Technology|Size (Gb)|Reads N50 (kb)|SRA accession|
 |------|-------------|----------|----------------|--------------|-------------|
 |HCC1937|T|ONT R10|355|37|[SRR28305186](https://www.ncbi.nlm.nih.gov/sra/?term=SRR28305186)|
-|HCC1937|T|ONT UL E821|572|48|[SRR31537484](https://www.ncbi.nlm.nih.gov/sra/?term=SRR28305184)|
+|HCC1937|T|ONT E821|572|48|[SRR31537484](https://www.ncbi.nlm.nih.gov/sra/?term=SRR28305184)|
 |HCC1937|T|HiFi|184|15|[SRR28305185](https://www.ncbi.nlm.nih.gov/sra/?term=SRR28305185)|
 |HCC1937|T|Illumina|740|-|[SRR28305184](https://www.ncbi.nlm.nih.gov/sra/?term=SRR28305184)|
 |HCC1937|T|Hi-C|132|-|[Google Bucket](https://console.cloud.google.com/storage/browser/brain-genomics-public/publications/park2024_deepsomatic/bams/HiC/)|
 |HCC1937BL|N|ONT R10|79|41|[SRR28305183](https://www.ncbi.nlm.nih.gov/sra/?term=SRR28305183)|
-|HCC1937BL|N|ONT UL E821|172|45|[SRR31537483](https://www.ncbi.nlm.nih.gov/sra/?term=SRR31537483)|
+|HCC1937BL|N|ONT E821|172|45|[SRR31537483](https://www.ncbi.nlm.nih.gov/sra/?term=SRR31537483)|
 |HCC1937BL|N|HiFi|172|16|[SRR28305182](https://www.ncbi.nlm.nih.gov/sra/?term=SRR28305182)|
 |HCC1937BL|N|Illumina|218|-|[SRR28305181](https://www.ncbi.nlm.nih.gov/sra/?term=SRR28305181)|
 |HCC1937BL|N|	Pore-C	|77	| - | SRR31537477|
@@ -55,27 +81,27 @@ which is currently available from Google bucket and will be uploaded to SRA shor
 |Sample|T/N|Technology|Size (Gb)|Reads N50 (kb)|SRA accession|
 |------|-------------|----------|----------------|--------------|-------------|
 |H1437|T|ONT R10|242|38|[SRR28305180](https://www.ncbi.nlm.nih.gov/sra/?term=SRR28305180)|
-|H1437|T|ONT UL E821|550|48|[SRR31537476](https://www.ncbi.nlm.nih.gov/sra/?term=SRR31537476)|
+|H1437|T|ONT E821|550|48|[SRR31537476](https://www.ncbi.nlm.nih.gov/sra/?term=SRR31537476)|
 |H1437|T|HiFi|198|17|[SRR28305179](https://www.ncbi.nlm.nih.gov/sra/?term=SRR28305179)|
 |H1437|T|Illumina|595|-|[SRR28305178](https://www.ncbi.nlm.nih.gov/sra/?term=SRR28305178)|
 |H1437|T|Hi-C|85|-|[Google Bucket](https://console.cloud.google.com/storage/browser/brain-genomics-public/publications/park2024_deepsomatic/bams/HiC/)|
 |BL1437|N|ONT R10|151|42|[SRR28305177](https://www.ncbi.nlm.nih.gov/sra/?term=SRR28305177)|
-|BL1437|N|ONT UL E821|203|39|[SRR31537475](https://www.ncbi.nlm.nih.gov/sra/?term=SRR31537475)|
+|BL1437|N|ONT E821|203|39|[SRR31537475](https://www.ncbi.nlm.nih.gov/sra/?term=SRR31537475)|
 |BL1437|N|HiFi|218|18|[SRR28305175](https://www.ncbi.nlm.nih.gov/sra/?term=SRR28305175)|
 |BL1437|N|Illumina|203|-|[SRR28305174](https://www.ncbi.nlm.nih.gov/sra/?term=SRR28305174)|
-| BL1437|N|	Pore-C	|79	| - | SRR31537474|
+|BL1437|N|	Pore-C	|79	| - | SRR31537474|
 
 #### H2009/BL2009 Lung adenocarcinoma with matched normal blood sample
 
 |Sample|T/N|Technology|Size (Gb)|Reads N50 (kb)|SRA accession|
 |------|-------------|----------|----------------|--------------|-------------|
 |H2009|T|ONT R10|329|27|[SRR28305173](https://www.ncbi.nlm.nih.gov/sra/?term=SRR28305173)|
-|H2009|T|ONT UL E821|516|65|[SRR31537473](https://www.ncbi.nlm.nih.gov/sra/?term=SRR31537473)|
+|H2009|T|ONT E821|516|65|[SRR31537473](https://www.ncbi.nlm.nih.gov/sra/?term=SRR31537473)|
 |H2009|T|HiFi|201|16|[SRR28305172](https://www.ncbi.nlm.nih.gov/sra/?term=SRR28305172)|
 |H2009|T|Illumina|669|-|[SRR28305171](https://www.ncbi.nlm.nih.gov/sra/?term=SRR28305171)|
 |H2009|T|Hi-C|199|-|[Google Bucket](https://console.cloud.google.com/storage/browser/brain-genomics-public/publications/park2024_deepsomatic/bams/HiC/)|
 |BL2009|N|ONT R10|92|37|[SRR28305170](https://www.ncbi.nlm.nih.gov/sra/?term=SRR28305170)|
-|BL2009|N|ONT UL E821	| 166	|64	| [SRR31537472](https://www.ncbi.nlm.nih.gov/sra/?term=SRR31537472)|
+|BL2009|N|ONT E821	| 166	|64	| [SRR31537472](https://www.ncbi.nlm.nih.gov/sra/?term=SRR31537472)|
 |BL2009|N|HiFi|209|16|[SRR28305169](https://www.ncbi.nlm.nih.gov/sra/?term=SRR28305169)|
 |BL2009|N|Illumina|171|-|[SRR28305168](https://www.ncbi.nlm.nih.gov/sra/?term=SRR28305168)|
 |BL2009|N|	Pore-C	|79	| - |SRR31537471|
@@ -91,6 +117,7 @@ which is currently available from Google bucket and will be uploaded to SRA shor
 |Hs578Bst|N|ONT R10|113|40|[SRR31537480](https://www.ncbi.nlm.nih.gov/sra/?term=SRR31537480)|
 |Hs578Bst|N|HiFi|84|12|[SRR31537479](https://www.ncbi.nlm.nih.gov/sra/?term=SRR31537479)|
 |Hs578Bst|N|Illumina|102|-|[SRR31537478](https://www.ncbi.nlm.nih.gov/sra/?term=SRR31537478)|
+|Hs578Bst|N|PB IsoSeq|19.1|-|[SRR40571717](https://www.ncbi.nlm.nih.gov/sra/?term=SRR40571717)|
 
 #### HCC1395/HCC1395BL Breast Invasive Ductal Carcinoma with matched normal blood sample
 
@@ -144,12 +171,15 @@ The sequencing data was generated and analyzed in a joint initiaive by the follo
 * Google Health (DeepVariant group)
 * Oxford Nanopore Technologies (Applications team)
 * New York Genome Center (Robine and Narzisi labs)
+* UC Santa Cruz (Brooks lab)
 
 ## How to cite
 
-* The most relevant citation for data generation and small variation analysis is the [DeepSomatic](https://www.nature.com/articles/s41587-025-02839-x) manuscript.
+* The most relevant citation for current genomic data + small variation analysis is the [DeepSomatic](https://www.nature.com/articles/s41587-025-02839-x) manuscript.
 
 * To refer to structural variation analysis, please cite [Severus](https://www.nature.com/articles/s41587-025-02618-8) manuscript.
+
+* PacBio IsoSeq Kinnex data is shared ahead of publication, please credit Angla Brooks lab (UC Santa Cruz) if you are using it in your work.
 
 ## Somatic Variation Analysis
 ### Structural Variation Calls and benchmarking
